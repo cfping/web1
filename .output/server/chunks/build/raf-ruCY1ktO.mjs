@@ -1,0 +1,2 @@
+let e=0;const n=new Map;function cleanup(e){n.delete(e)}function wrapperRaf(t){e+=1;const a=e;return function callRef(e){if(0===e)cleanup(a),t();else{const t=(e=>setTimeout(e,16))(()=>{callRef(e-1)});n.set(a,t)}}(arguments.length>1&&void 0!==arguments[1]?arguments[1]:1),a}wrapperRaf.cancel=e=>{const t=n.get(e);return cleanup(t),clearTimeout(t)};export{wrapperRaf as w};
+//# sourceMappingURL=raf-ruCY1ktO.mjs.map

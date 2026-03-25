@@ -1,0 +1,6 @@
+/target
+/node_modules
+/nuxt-cms/node_modules
+/.claude
+/*/.claude
+.DS_Store

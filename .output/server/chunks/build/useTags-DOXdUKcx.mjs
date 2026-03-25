@@ -1,0 +1,2 @@
+import{u as e}from"./useApi-B-GLTGNc.mjs";import{reactive as t,computed as a}from"vue";const useTags=(r={})=>{const{type:s,status:o}=r,u=t({type:s,status:o}),{data:p,pending:n,error:i,execute:c}=e("/v1/categories",{...u,lazy:!0}),l=a(()=>p.value?.data||[]);return{list:l,total:a(()=>l.value.length),pending:n,error:i,execute:c,params:u}};export{useTags as u};
+//# sourceMappingURL=useTags-DOXdUKcx.mjs.map
