@@ -1,2 +1,0 @@
-import{ref as e,unref as t,watchEffect as u,watch as a,toRaw as o}from"vue";function useMergedState(n,l){const{defaultValue:v,value:f=e()}=l||{};let i="function"==typeof n?n():n;void 0!==f.value&&(i=t(f)),void 0!==v&&(i="function"==typeof v?v():v);const s=e(i),c=e(i);return u(()=>{let e=void 0!==f.value?f.value:s.value;l.postState&&(e=l.postState(e)),c.value=e}),a(f,()=>{s.value=f.value}),[c,function(e){const t=c.value;s.value=e,o(c.value)!==e&&l.onChange&&l.onChange(e,t)}]}export{useMergedState as u};
-//# sourceMappingURL=useMergedState-BZEfJ8Fl.mjs.map
