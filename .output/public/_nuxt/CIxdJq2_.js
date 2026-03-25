@@ -1,0 +1,1 @@
+import{d as t,A as s,i as n,m as a}from"./TcWmlCBE.js";const f=t({__name:"index",setup(u){const o=s(),r=n();return a(()=>{const e=r.query.ref;e?(localStorage.setItem("referral_code",e),o.replace("/login?ref="+e)):o.replace("/login")}),()=>{}}});export{f as default};
