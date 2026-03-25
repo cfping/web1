@@ -1,0 +1,1 @@
+import{aP as r,q as a,aQ as o}from"./CBx6ZorB.js";const f=r((e,n)=>{const s=a().getToken(),u=["/profile","/apply-columnist","/publish/publish"].some(t=>e.path.startsWith(t)),i=["/login","/register"].some(t=>e.path.startsWith(t));if(u&&!s)return o("/login");if(i&&s)return o("/profile")});export{f as default};
