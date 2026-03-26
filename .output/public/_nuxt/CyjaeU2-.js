@@ -1,0 +1,1 @@
+import{d as t,C as n,j as s,n as a}from"./DSpGS-yl.js";const f=t({__name:"index",setup(u){const o=n(),r=s();return a(()=>{const e=r.query.ref;e?(localStorage.setItem("referral_code",e),o.replace("/login?ref="+e)):o.replace("/login")}),()=>{}}});export{f as default};
