@@ -1,1 +1,0 @@
-import{u as r}from"./B-UZTbce.js";import{n as t,v as a,a7 as u,T as c}from"./uBtpyti_.js";function v(){const s=u({});let e=null;const n=r();return t(()=>{e=n.value.subscribe(o=>{s.value=o})}),a(()=>{n.value.unsubscribe(e)}),s}function f(s){const e=u();return c(()=>{e.value=s()},{flush:"sync"}),e}export{f as e,v as u};
