@@ -1,0 +1,1 @@
+import{_ as e}from"./uBtpyti_.js";const t={name:"IndexPage",layout:"default",beforeCreate(){this.$router.push("/news")}};function r(n,o,s,a,c,u){return null}const f=e(t,[["render",r]]);export{f as default};
