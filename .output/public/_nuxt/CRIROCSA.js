@@ -1,1 +1,0 @@
-import{u as i}from"./DqJuVSu9.js";import{k as a,a4 as l}from"./ChK10SjK.js";const g=(s={})=>{const{type:o,status:r}=s,t=l({type:o,status:r}),{data:u,pending:c,error:n,execute:p}=i("/v1/categories",{...t,lazy:!0}),e=a(()=>u.value?.data||[]);return{list:e,total:a(()=>e.value.length),pending:c,error:n,execute:p,params:t}};export{g as u};
