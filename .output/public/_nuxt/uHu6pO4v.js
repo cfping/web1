@@ -1,1 +1,0 @@
-import{u as r}from"./Bt8Cqz4D.js";import{s as t,z as a,a9 as u,V as c}from"./BLGYN9m5.js";function f(){const s=u({});let e=null;const n=r();return t(()=>{e=n.value.subscribe(o=>{s.value=o})}),a(()=>{n.value.unsubscribe(e)}),s}function v(s){const e=u();return c(()=>{e.value=s()},{flush:"sync"}),e}export{v as e,f as u};

@@ -1,0 +1,1 @@
+import{r as u}from"./ChK10SjK.js";const f=(t=>{if(!t)return!1;if(t.offsetParent)return!0;if(t.getBBox){const i=t.getBBox();if(i.width||i.height)return!0}if(t.getBoundingClientRect){const i=t.getBoundingClientRect();if(i.width||i.height)return!0}return!1});function s(t){const i=typeof t=="function"?t():t,r=u(i);function n(o){r.value=o}return[r,n]}export{f as i,s as u};
