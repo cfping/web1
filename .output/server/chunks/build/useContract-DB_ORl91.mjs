@@ -1,0 +1,2 @@
+import{j as a}from"./server.mjs";const useContract=()=>{const{$viem:e,$walletClient:s}=a();return{read:async({address:a,abi:s,functionName:t,args:r=[]})=>await e.bscTestnet.readContract({address:a,abi:s,functionName:t,args:r}),write:async({address:a,abi:e,functionName:t,args:r=[],value:n})=>{const i=await s.requestAddresses();return await s.writeContract({address:a,abi:e,functionName:t,args:r,account:i[0],value:n})}}};export{useContract as u};
+//# sourceMappingURL=useContract-DB_ORl91.mjs.map

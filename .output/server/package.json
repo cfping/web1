@@ -32,6 +32,7 @@
     "@vue/server-renderer": "3.5.29",
     "@vue/shared": "3.5.29",
     "abitype": "1.2.3",
+    "bignumber.js": "10.0.2",
     "birpc": "2.9.0",
     "case-anything": "3.1.2",
     "consola": "3.4.2",
@@ -47,6 +48,7 @@
     "hookable": "6.0.1",
     "html-to-image": "1.11.13",
     "iron-webcrypto": "1.2.1",
+    "isows": "1.0.7",
     "jose": "6.2.2",
     "node-mock-http": "1.0.4",
     "oauth4webapi": "3.8.5",
@@ -68,6 +70,7 @@
     "viem": "2.47.4",
     "vue": "3.5.29",
     "vue-bundle-renderer": "2.2.0",
-    "vue-router": "4.6.4"
+    "vue-router": "4.6.4",
+    "ws": "8.18.3"
   }
 }
