@@ -1,1 +1,0 @@
-import{b3 as r,y as n,b4 as o}from"./2P6Up7A7.js";const f=r((e,a)=>{const s=n().getToken(),u=["/profile","/apply-columnist","/publish/publish"].some(t=>e.path.startsWith(t)),i=["/login","/register"].some(t=>e.path.startsWith(t));if(u&&!s)return o("/login");if(i&&s)return o("/profile")});export{f as default};

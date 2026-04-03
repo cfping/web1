@@ -1,2 +1,0 @@
-import{i as t,b as e}from"./isObjectLike-OAgjjZye.mjs";import{o}from"./useState-Bap475Ih.mjs";var r=o(Object.getPrototypeOf,Object),c=Function.prototype,n=Object.prototype,a=c.toString,i=n.hasOwnProperty,s=a.call(Object);function isPlainObject(o){if(!t(o)||"[object Object]"!=e(o))return!1;var c=r(o);if(null===c)return!0;var n=i.call(c,"constructor")&&c.constructor;return"function"==typeof n&&n instanceof n&&a.call(n)==s}export{r as g,isPlainObject as i};
-//# sourceMappingURL=isPlainObject-Be5JZOhU.mjs.map

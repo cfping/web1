@@ -1,1 +1,0 @@
-import{L as p}from"./2P6Up7A7.js";function a(){return p().$authApi}async function o(t,u){return await a()(t,{method:"POST",body:u})}async function e(t,u){return await a()(t,{method:"GET",query:u})}export{o as $,e as a};
