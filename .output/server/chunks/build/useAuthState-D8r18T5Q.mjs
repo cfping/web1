@@ -1,2 +1,0 @@
-import{h as e}from"./server.mjs";import{computed as t}from"vue";function useAuthState(){const s=e(),n=t(()=>s.isAuthenticated),o=t(()=>s.currentUser),r=t(()=>s.token);return{authState:t(()=>({isLoggedIn:s.isLoggedIn,tokens:s.tokens,user:s.user})),isLoggedIn:n,user:o,token:r,getToken:()=>s.getToken(),setTokens:e=>s.setTokens(e),clearTokens:()=>s.clearTokens(),setUser:e=>s.setUser(e),initAuth:()=>{s.initAuth()}}}export{useAuthState as u};
-//# sourceMappingURL=useAuthState-D8r18T5Q.mjs.map
