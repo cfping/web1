@@ -1,2 +1,0 @@
-import{d as a}from"./useApi-DNL_ziIc.mjs";import{B as t}from"./server.mjs";const getAdConfig=async()=>{const e=t("ad-cache",()=>({data:null,timestamp:0})),s=Date.now();if(e.value.data&&e.value.timestamp){if(!(s-e.value.timestamp>36e5))return console.log("使用缓存广告数据"),e.value.data}try{const t=(await a("/v1/ads/config")).data.value;if(t&&t.positions)return e.value={data:t,timestamp:s},t}catch(a){if(console.error("获取广告配置失败:",a),e.value.data)return e.value.data}return null};export{getAdConfig as g};
-//# sourceMappingURL=useAdApi-juBYT5kt.mjs.map
