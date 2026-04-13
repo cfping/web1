@@ -1,0 +1,2 @@
+import{u as e}from"./useApi-D37iN3Do.mjs";import{reactive as t,computed as a}from"vue";const useTags=(r={})=>{const{type:s,status:o}=r,u=t({type:s,status:o}),{data:p,pending:i,error:n,execute:l}=e("/v1/categories",{...u,lazy:!0}),m=a(()=>p.value?.data||[]);return{list:m,total:a(()=>m.value.length),pending:i,error:n,execute:l,params:u}};export{useTags as u};
+//# sourceMappingURL=useTags-BOc7Cfai.mjs.map
