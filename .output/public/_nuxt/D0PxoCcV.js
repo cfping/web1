@@ -1,0 +1,1 @@
+import{d as t,E as s,h as n,s as a}from"./D8zZqlUT.js";const f=t({__name:"index",setup(u){const o=s(),r=n();return a(()=>{const e=r.query.ref;e?(localStorage.setItem("referral_code",e),o.replace("/login?ref="+e)):o.replace("/login")}),()=>{}}});export{f as default};
