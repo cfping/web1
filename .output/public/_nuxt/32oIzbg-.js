@@ -1,0 +1,1 @@
+import{u as o}from"./CBGNNhxM.js";import{d as r,o as t,q as s,at as a}from"./CR1OyniO.js";import"./BdvywWfM.js";import"./DW8EI95G.js";const n={class:"w-72 h-full min-h-screen bg-white border-l border-gray-200 p-4 overflow-y-auto"},u=r({__name:"CourseRightSidebar",setup(i){return o(),(e,l)=>(t(),s("aside",n,[a(e.$slots,"default")]))}});export{u as default};
