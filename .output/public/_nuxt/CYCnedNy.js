@@ -1,0 +1,1 @@
+import{ba as i,y as l,a as h,aQ as u}from"./DPhiXIqi.js";const R=i((t,r)=>{const s=l().getToken(),o=h(),a=["/profile","/apply-columnist","/publish/publish"].some(e=>t.path.endsWith(e)||t.path.includes(`/${e}`)),n=["/login","/register"].some(e=>t.path.endsWith(e)||t.path.includes(`/${e}`));if(a&&!s)return u(o("/login"));if(n&&s)return u(o("/profile"))});export{R as default};
